@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hidden lg:block lg:-mr-8 lg:mt-[48px]">
+          <div className="hidden lg:block lg:-mr-8 lg:mt-[50px]">
             <img src="/desktop/image-hero-right.png" />
           </div>
         </div>
