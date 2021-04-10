@@ -17,11 +17,14 @@ export default function Home() {
       <div>
         <div className="mt-[61px] lg:h-[358px] flex flex-col lg:flex-row justify-between">
           <div className="block -mx-5 sm:-mx-6.5 lg:hidden">
-            <img src="/tablet/image-hero.png" />
+            <img src="/tablet/image-hero.png" alt="Hero Image for tablet" />
           </div>
 
           <div className="hidden lg:block lg:-ml-8">
-            <img src="/desktop/image-hero-left.png" />
+            <img
+              src="/desktop/image-hero-left.png"
+              alt="Left Hero Image for desktop"
+            />
           </div>
 
           <div className="mt-12 sm:mt-[72px] lg:mt-[48px] text-center">
@@ -47,7 +50,10 @@ export default function Home() {
           </div>
 
           <div className="hidden lg:block lg:-mr-8 lg:mt-[50px]">
-            <img src="/desktop/image-hero-right.png" />
+            <img
+              src="/desktop/image-hero-right.png"
+              alt="Right Hero Image for desktop"
+            />
           </div>
         </div>
 
@@ -65,6 +71,7 @@ export default function Home() {
             <img
               className="h-[151px] sm:h-[156px] lg:h-[242px] rounded-lg"
               src="/desktop/image-woman-in-videocall.jpg"
+              alt="Woman in videocall"
             />
           </div>
 
@@ -72,6 +79,7 @@ export default function Home() {
             <img
               className="h-[151px] sm:h-[156px] lg:h-[242px] rounded-lg"
               src="/desktop/image-women-videochatting.jpg"
+              alt="Women videochatting"
             />
           </div>
 
@@ -79,6 +87,7 @@ export default function Home() {
             <img
               className="h-[151px] sm:h-[156px] lg:h-[242px] rounded-lg"
               src="/desktop/image-men-in-meeting.jpg"
+              alt="Men in meeting"
             />
           </div>
 
@@ -86,6 +95,7 @@ export default function Home() {
             <img
               className="h-[151px] sm:h-[156px] lg:h-[242px] rounded-lg"
               src="/desktop/image-man-texting.jpg"
+              alt="Man texting"
             />
           </div>
         </div>

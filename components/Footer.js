@@ -6,16 +6,19 @@ export default function Footer() {
       <img
         className="block w-full h-full sm:hidden lg:hidden absolute inset-0 opacity-[0.1045]"
         src="/mobile/image-footer.jpg"
+        alt="Footer image for mobile"
       ></img>
 
       <img
         className="hidden w-full h-full sm:block lg:hidden absolute inset-0 opacity-[0.1045]"
         src="/tablet/image-footer.jpg"
+        alt="Footer image for tablet"
       ></img>
 
       <img
         className="hidden w-full h-full lg:block absolute inset-0 opacity-[0.1045]"
         src="/desktop/image-footer.jpg"
+        alt="Footer image for desktop"
       ></img>
 
       <div className="lg:max-w-[1100px] flex flex-col lg:flex-row items-center text-center align-text-top lg:text-left">
