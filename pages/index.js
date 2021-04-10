@@ -24,7 +24,7 @@ export default function Home() {
             <img src="/desktop/image-hero-left.png" />
           </div>
 
-          <div className="mt-12 sm:mt-[72px] lg:mt-[49px] text-center">
+          <div className="mt-12 sm:mt-[72px] lg:mt-[48px] text-center">
             <h1 className="mx-auto max-w-[327px] sm:max-w-[445px] font-black text-h2 sm:text-h1 text-theme-header">
               Group Chat for Everyone
             </h1>
@@ -53,7 +53,7 @@ export default function Home() {
 
         <div className="mt-16 sm:mt-20 lg:mt-[110px] flex flex-col items-center justify-center">
           <div className="w-px h-[84px] bg-theme-body opacity-25"></div>
-          <div className="px-[19px] py-[15px] border border-theme-body border-opacity-25 rounded-full bg-theme-white text-body text-theme-body">
+          <div className="w-14 h-14 flex items-center justify-center border border-theme-body border-opacity-25 rounded-full bg-theme-white font-black text-body text-theme-body">
             01
           </div>
         </div>
@@ -108,7 +108,7 @@ export default function Home() {
 
         <div className="mt-16 sm:mt-[80px] lg:mt-[72px] flex flex-col items-center justify-center">
           <div className="w-px h-[84px] bg-theme-body opacity-25"></div>
-          <div className="z-10 px-[19px] py-[15px] border border-theme-body border-opacity-25 rounded-full bg-theme-white text-body text-theme-body">
+          <div className="z-10 w-14 h-14 flex items-center justify-center border border-theme-body border-opacity-25 rounded-full bg-theme-white text-body text-theme-body">
             02
           </div>
         </div>
