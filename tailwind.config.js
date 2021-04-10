@@ -10,6 +10,7 @@ module.exports = {
       fontSize: {
         h1: ["64px", "64px"],
         h2: ["40px", "44px"],
+        h3: ["32px", "36px"],
         overline: [
           "16px",
           {
@@ -31,6 +32,9 @@ module.exports = {
           "secondary-hover": "#B18BDD",
           white: "#FAFAFA",
         },
+      },
+      margin: {
+        "-6.5": "-26px",
       },
     },
   },
