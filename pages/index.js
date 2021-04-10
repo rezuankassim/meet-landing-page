@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
 
       <div>
-        <div className="mt-[61px] flex flex-col lg:flex-row items-center justify-between">
+        <div className="mt-[61px] lg:h-[358px] flex flex-col lg:flex-row justify-between">
           <div className="block -mx-5 sm:-mx-6.5 lg:hidden">
             <img src="/tablet/image-hero.png" />
           </div>
@@ -24,7 +24,7 @@ export default function Home() {
             <img src="/desktop/image-hero-left.png" />
           </div>
 
-          <div className="mt-12 sm:mt-[72px] lg:mt-0 text-center">
+          <div className="mt-12 sm:mt-[72px] lg:mt-[49px] text-center">
             <h1 className="mx-auto max-w-[327px] sm:max-w-[445px] font-black text-h2 sm:text-h1 text-theme-header">
               Group Chat for Everyone
             </h1>
@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hidden lg:block lg:-mr-8">
+          <div className="hidden lg:block lg:-mr-8 lg:mt-[49px]">
             <img src="/desktop/image-hero-right.png" />
           </div>
         </div>
