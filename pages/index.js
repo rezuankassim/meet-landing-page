@@ -29,7 +29,7 @@ export default function Home() {
               Group Chat for Everyone
             </h1>
 
-            <p className="mt-6 sm:mt-[33px] mx-auto max-w-[327px] sm:max-w-[540px] font-medium text-body text-theme-body">
+            <p className="mt-6 sm:mt-[32px] mx-auto max-w-[327px] sm:max-w-[540px] font-medium text-body text-theme-body">
               Meet makes its easy to connect with others face-to-face virtually
               and collaborate across any device.
             </p>
@@ -108,7 +108,7 @@ export default function Home() {
 
         <div className="mt-16 sm:mt-[80px] lg:mt-[72px] flex flex-col items-center justify-center">
           <div className="w-px h-[84px] bg-theme-body opacity-25"></div>
-          <div className="z-10 w-14 h-14 flex items-center justify-center border border-theme-body border-opacity-25 rounded-full bg-theme-white text-body text-theme-body">
+          <div className="z-10 w-14 h-14 flex items-center justify-center border border-theme-body border-opacity-25 rounded-full bg-theme-white font-black text-body text-theme-body">
             02
           </div>
         </div>

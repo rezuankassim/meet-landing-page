@@ -23,7 +23,7 @@ export default function Footer() {
           Experience more together
         </p>
 
-        <p className="z-10 mt-6 sm:mt-8 lg:mt-0 lg:ml-[125px] sm:max-w-[573px] lg:max-w-[350px] font-medium text-body text-theme-white align-text-top">
+        <p className="z-10 mt-6 sm:mt-8 lg:mt-0 lg:mb-2 lg:ml-[125px] sm:max-w-[573px] lg:max-w-[350px] font-medium text-body text-theme-white align-text-top">
           Stay connected with reliable HD meetings and unlimited one-on-one and
           group video sessions.
         </p>
